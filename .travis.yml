@@ -2,5 +2,5 @@ language: c
 sudo: false # only for faster builds
 compiler: gcc
 script:
-  - gcc -o TCS_code TCS_code.c
-  - ./TCS_code
+  - gcc -o EX_2 EX_@.c
+  - ./EX_2
