@@ -1,0 +1,6 @@
+language: c
+sudo: false # only for faster builds
+compiler: gcc
+script:
+  - gcc -o TCS_code TCS_code.c
+  - ./TCS_code
