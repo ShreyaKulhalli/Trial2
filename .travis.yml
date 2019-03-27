@@ -2,5 +2,5 @@ language: c
 sudo: false # only for faster builds
 compiler: gcc
 script:
-  - gcc -o EX_2 EX_@.c
-  - ./EX_2
+  - gcc -o Example_1 Example_1.c
+  - ./Example_1
